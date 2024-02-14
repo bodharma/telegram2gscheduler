@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telegram2scheduler"
+version = "0.1.0"
+description = ""
+authors = ["De1c <denpro8350@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+telebot = "^0.0.5"
+pytz = "^2024.1"
+progressbar2 = "^4.3.2"
+python-telegram-bot = "^20.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
